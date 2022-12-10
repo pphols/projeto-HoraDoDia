@@ -7,7 +7,7 @@ function carregar() {
   var min = dat.getMinutes();
   var txt = document.getElementById('txt');
   msg.innerHTML = `Agora são ${hora}:${min}`;
-
+  
   if (hora >= 6 && hora < 13) {
     // bom dia
     img.src = 'img/manha.png';
